@@ -1,0 +1,73 @@
+.managers-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/*hide show in users view*/
+#mgrs-section {
+    display: none;
+}
+
+#mangrs-top-div {
+    max-width: 300px;
+}
+.single-mngr-div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    min-height: 100px;
+    min-width: 100px;
+    margin: 10px 0;
+    max-width: 320px;
+}
+.single-mngr-div img {
+    max-width: 100px;
+    float:left;
+    padding: 0 7px 5px 0;
+}
+
+
+.grey-border {
+    border: 1px solid lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+}
+#btn_addMngr {
+    max-width: 150px;
+    /*height: 1.8em;*/
+    /*line-height: 1.8em;*/
+
+}
+#buttons-Mngr-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.width100 {
+    width: 100%;
+}
+
+#mng-btn {
+    margin-left: 42%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#0056b3;
+    opacity: 0.8;
+    color: white ;
+    font-size: 1.1em;
+    height: 2em;
+    border: none;
+    outline:none;
+}
+
+#mng-btn:hover {
+    opacity: 1;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+/*
+#mng-btn span {
+    font-size: 1.5em;
+}*/

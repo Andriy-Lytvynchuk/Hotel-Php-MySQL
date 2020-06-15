@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f8b60992-a95d-4da8-aa8a-042ae87b72f3" name="local" url="http://localhost/humber_php/Resort-NewRepo/Hotel-Php-MySQL">
+        <fileTransfer port="0" mountedRoot="" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
